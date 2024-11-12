@@ -181,9 +181,9 @@ class FolderSynchronizer
 
             return true;
         }
-        catch (Exception ex)
+        catch (Exception)
         {
-            logger.LogWarning($"Access denied: {path} {ex.Message}");
+            logger.LogWarning($"Access denied: {path}");
         }
 
         return false;
