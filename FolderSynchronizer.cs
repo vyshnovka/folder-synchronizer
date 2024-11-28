@@ -159,7 +159,7 @@ class FolderSynchronizer
     }
 
     /// <summary>
-    /// Checks access permisions to a given item (directory by default or file if specified).
+    /// Checks access permisions to a given item (file by default or directory if specified).
     /// </summary>
     /// <param name="path">Path to item.</param>
     /// <param name="isDirectory">If item is a directory.</param>
