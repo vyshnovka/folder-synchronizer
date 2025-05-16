@@ -13,20 +13,20 @@
         /// Logs any information to log file and console in choosen color.
         /// If no color is specified, prints in default console color.
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">Message to print.</param>
         /// <param name="color">Color to print to console with.</param>
         public void LogInfo(string message, ConsoleColor color = ConsoleColor.Gray) => Log($"INFO: {message}", color);
 
         /// <summary>
         /// Logs a warning to log file and console in yellow.
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">Message to print.</param>
         public void LogWarning(string message) => Log($"WARNING: {message}", ConsoleColor.DarkYellow);
 
         /// <summary>
         /// Logs an error to log file and console in red.
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">Message to print.</param>
         public void LogError(string message) => Log($"ERROR: {message}", ConsoleColor.Red);
 
         /// <summary>
